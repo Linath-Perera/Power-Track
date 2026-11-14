@@ -1,0 +1,26 @@
+export const palettes = {
+  dark: {
+    bg: "#081321",
+    card: "#122238",
+    raised: "#1B3049",
+    text: "#F3F7FD",
+    muted: "#9BADBF",
+    border: "#29405A",
+    green: "#49E2AF",
+    nav: "#0E1E31",
+    danger: "#FF8C91",
+    yellow: "#FFD277",
+  },
+  light: {
+    bg: "#F2F6FA",
+    card: "#FFFFFF",
+    raised: "#E8F0F5",
+    text: "#112740",
+    muted: "#5B7086",
+    border: "#D6E2ED",
+    green: "#087F60",
+    nav: "#FFFFFF",
+    danger: "#B72E47",
+    yellow: "#946100",
+  },
+};
