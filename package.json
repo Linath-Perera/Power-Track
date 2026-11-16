@@ -1,0 +1,42 @@
+{
+  "name": "powertrack",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "node --test tests/*.test.js",
+    "check": "expo install --check",
+    "lint": "node scripts/check-source.cjs",
+    "test:e2e": "playwright test",
+    "format": "prettier --write App.js index.js src tests e2e scripts *.json *.cjs *.md",
+    "format:check": "prettier --check App.js index.js src tests e2e scripts *.json *.cjs *.md"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.3.0",
+    "@react-navigation/native": "^7.1.0",
+    "@react-navigation/native-stack": "^7.3.0",
+    "expo": "~55.0.0",
+    "expo-font": "~55.0.8",
+    "expo-linear-gradient": "~55.0.18",
+    "expo-splash-screen": "~55.0.25",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-gifted-charts": "^1.4.81",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@playwright/test": "^1.64.1",
+    "prettier": "^3.9.10"
+  }
+}

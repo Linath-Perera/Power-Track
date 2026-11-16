@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.env*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+npm-debug.log*
+.DS_Store
+coverage/
+test-results/
+playwright-report/
+android/
+ios/

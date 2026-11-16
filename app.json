@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PowerTrack",
+    "slug": "powertrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0B192C",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.powertrack.manager"
+    },
+    "android": {
+      "package": "com.powertrack.manager"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "icon": "./assets/icon.png",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 180,
+          "backgroundColor": "#0B192C"
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
